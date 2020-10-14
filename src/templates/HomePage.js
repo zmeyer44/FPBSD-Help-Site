@@ -4,17 +4,10 @@ import { graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
-import Gallery from '../components/Gallery'
 import Buttons from '../components/Buttons'
 
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({
-  title,
-  subtitle,
-  featuredImage,
-  body,
-  gallery
-}) => (
+export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
   <main className="Home">
     <PageHeader
       large
@@ -26,12 +19,6 @@ export const HomePageTemplate = ({
     <section className="section">
       <div className="container">
         <Content source={body} />
-      </div>
-    </section>
-    <section className="section">
-      <div className="container">
-        <h2>Our Goals</h2>
-        <Gallery images={gallery} />
       </div>
     </section>
     <section className="section">
@@ -60,13 +47,11 @@ export const pageQuery = graphql`
   query HomePage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
-      ...Gallery
       html
       frontmatter {
         title
         subtitle
         featuredImage
-        section1
       }
     }
   }
