@@ -99,20 +99,20 @@ class Form extends React.Component {
               <input
                 className="Form--RadioInput"
                 type="radio"
-                name="gender"
-                value="male"
+                name="role"
+                value="teacher"
                 defaultChecked
               />
-              <span>Male</span>
+              <span>Teacher</span>
             </label>
             <label className="Form--Label Form--Radio">
               <input
                 className="Form--RadioInput"
                 type="radio"
-                name="gender"
-                value="female"
+                name="role"
+                value="parent"
               />
-              <span>Female</span>
+              <span>Parent</span>
             </label>
           </fieldset>
           <label className="Form--Label">
@@ -136,7 +136,7 @@ class Form extends React.Component {
                 Type of Enquiry
               </option>
               <option>Need to know more</option>
-              <option>Found a bug</option>
+              <option>Found an issue</option>
               <option>Want to say hello</option>
             </select>
           </label>
@@ -150,18 +150,7 @@ class Form extends React.Component {
             />
             <span>Message</span>
           </label>
-          <label className="Form--Label Form-Checkbox">
-            <input
-              className="Form--Input Form--Textarea Form--CheckboxInput"
-              name="newsletter"
-              type="checkbox"
-            />
-            <span>Get news updates</span>
-          </label>
-          <div
-            className="g-recaptcha"
-            data-sitekey="6LfKN3kUAAAAAGIM1CbXmaRZx3LIh_W2twn1tzkA"
-          />
+
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
           <input
