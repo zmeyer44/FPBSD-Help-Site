@@ -2,7 +2,7 @@
 template: HomePage
 slug: ""
 title: FPBSD Help Site
-featuredImage: https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/
+featuredImage: https://ucarecdn.com/6624088f-e179-4bdb-b185-3d9d209e1f04/
 subtitle: We are here to help you with any issues you may be facing adjusting to
   online learning.
 meta:
