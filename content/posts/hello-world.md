@@ -18,7 +18,7 @@ meta:
 ---
 Paragraphs are separated by a blank line.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=nv87eyvNxY0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nv87eyvNxY0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The second paragraph. This is placeholder text that our web designers put here to make sure words appear properly on your website. *Italic*, **bold**, and `monospace`.
 
