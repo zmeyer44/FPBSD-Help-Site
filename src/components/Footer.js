@@ -4,7 +4,7 @@ import './Footer.css'
 export default () => (
   <div>
     <h2 className="taCenter">
-      Visit Us <a href="https://fpbsd.com/">FPBSD.com</a>
+      Visit Us <a href="https://fpbsd.org/">FPBSD.org</a>
     </h2>
     <br />
     <footer className="footer">

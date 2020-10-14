@@ -8,11 +8,11 @@ class Buttons extends Component {
     return (
       <Fragment>
         <div className="taCenter">
-          <a href="/post-categories/teacher-resources/">
-            <div className="Button btn-margin">Teacher Resources</div>
+          <a href="/post-categories/teacher-resources/" className="btn-margin">
+            <div className="Button">Teacher Resources</div>
           </a>
-          <a href="/post-categories/parent-resources/">
-            <div className="Button btn-margin">Parent Resources</div>
+          <a href="/post-categories/parent-resources/" className="btn-margin">
+            <div className="Button">Parent Resources</div>
           </a>
         </div>
       </Fragment>
