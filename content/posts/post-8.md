@@ -1,19 +1,21 @@
 ---
 template: SinglePost
-title: River
+title: Freckle
 status: Published
-date: '2018-05-25'
-featuredImage: >-
-  https://ucarecdn.com/d6ad4f3e-40a1-49cf-8cf0-f06a25d08544/-/crop/1690x1484/0,882/-/preview/
-excerpt: >-
-  This is placeholder text that our web designers put here to make sure words
-  appear properly on your website. This text is going to be replaced once the
-  website is completed. You are currently reading text that is written in
+date: 2018-05-25
+featuredImage: https://ucarecdn.com/1d7d3fb9-5e5c-4af3-920f-f4522c33873a/
+excerpt: This is placeholder text that our web designers put here to make sure
+  words appear properly on your website. This text is going to be replaced once
+  the website is completed. You are currently reading text that is written in
   English, not any other language.
+categories:
+  - category: Teacher Resources
+  - category: Parent Resources
 meta:
   description: test meta description
   title: test meta title
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xwlxynoBc4k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This is placeholder text that our web designers put here to make sure words appear properly on your website. This text is going to be replaced once the website is completed. You are currently reading text that is written in English, not any other language.
 
