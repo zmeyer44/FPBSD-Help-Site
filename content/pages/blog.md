@@ -1,10 +1,10 @@
 ---
 template: BlogIndex
 slug: blog
-title: Blog Page
-featuredImage: 'https://ucarecdn.com/b6254577-26bf-4b79-aa9b-f3793e2aebdc/'
-subtitle: This is the blog page subtitle.
+title: Guides
+featuredImage: https://ucarecdn.com/1b264d00-b8ec-4310-90c3-e03a4fc50b16/
+subtitle: Here are all of our tutorials.
 meta:
-  description: This is a meta description.
-  title: Blog Page
+  description: This is the library of all of our tutorials for online learning.
+  title: Guides Page
 ---
