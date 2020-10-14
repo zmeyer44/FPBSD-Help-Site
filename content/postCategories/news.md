@@ -1,8 +1,6 @@
 ---
 template: BlogIndex
-title: News
-subtitle: ''
-featuredImage: >-
-  https://ucarecdn.com/db0b1431-8739-426f-970d-8a80eacf02ef/-/preview/-/rotate/270/
+title: Teacher Resources
+subtitle: ""
+featuredImage: https://ucarecdn.com/62214dbf-133a-4368-8ec6-0b736a128cb5/
 ---
-
