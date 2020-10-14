@@ -9,10 +9,10 @@ class Buttons extends Component {
       <Fragment>
         <div className="taCenter">
           <a href="/post-categories/teacher-resources/">
-            <div className="Button">Teacher Resources</div>
+            <div className="Button btn-margin">Teacher Resources</div>
           </a>
           <a href="/post-categories/parent-resources/">
-            <div className="Button">Parent Resources</div>
+            <div className="Button btn-margin">Parent Resources</div>
           </a>
         </div>
       </Fragment>
