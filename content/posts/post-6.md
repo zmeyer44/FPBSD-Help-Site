@@ -1,14 +1,16 @@
 ---
 template: SinglePost
-title: Man
+title: Google Meet
 status: Published
-date: '2018-05-25'
-featuredImage: 'https://ucarecdn.com/bd5d1edc-73be-488a-9d50-8ec28f5ab6a9/'
-excerpt: >-
-  This is placeholder text that our web designers put here to make sure words
-  appear properly on your website. This text is going to be replaced once the
-  website is completed. You are currently reading text that is written in
+date: 2018-05-25
+featuredImage: https://ucarecdn.com/85ba3b64-b564-4a75-982a-1bc24e013ee5/
+excerpt: This is placeholder text that our web designers put here to make sure
+  words appear properly on your website. This text is going to be replaced once
+  the website is completed. You are currently reading text that is written in
   English, not any other language.
+categories:
+  - category: Teacher Resources
+  - category: Parent Resources
 meta:
   description: test meta description
   title: test meta title
