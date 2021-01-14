@@ -1,6 +1,7 @@
 ---
 template: SinglePost
-title: Freckle
+title: Exam Prep
+grade: gradek
 status: Published
 date: 2018-05-25
 featuredImage: https://ucarecdn.com/1d7d3fb9-5e5c-4af3-920f-f4522c33873a/
@@ -9,8 +10,7 @@ excerpt: This is placeholder text that our web designers put here to make sure
   the website is completed. You are currently reading text that is written in
   English, not any other language.
 categories:
-  - category: Teacher Resources
-  - category: Parent Resources
+  - category: jlc
 meta:
   description: test meta description
   title: test meta title
