@@ -1,6 +1,7 @@
 ---
 template: SinglePost
-title: iPad Organization
+title: iPad Project
+grade: grade2
 status: Published
 date: 2020-10-06
 featuredImage: https://ucarecdn.com/4067d91b-f48d-416f-bcc8-f9b704195d88/
@@ -9,8 +10,7 @@ excerpt: Etiam ac quam eget lectus venenatis ullamcorper sit amet non arcu.
   lectus est, lobortis ac efficitur vitae, posuere a mauris. Phasellus ac dui
   pellentesque, lacinia risus ut, imperdiet eros.
 categories:
-  - category: Teacher Resources
-  - category: Parent Resources
+  - category: jlc
 meta:
   canonicalLink: ""
   description: test meta description
