@@ -1,7 +1,8 @@
 ---
 template: SinglePost
-title: Trouble with Wifi?
-status: Featured / Published
+title: More Projects
+grade: gradek
+status: Published
 date: 2018-03-27
 featuredImage: https://ucarecdn.com/6d332a16-89b5-451c-91ca-0516295f6065/
 excerpt: Etiam ac quam eget lectus venenatis ullamcorper sit amet non arcu.
@@ -9,8 +10,7 @@ excerpt: Etiam ac quam eget lectus venenatis ullamcorper sit amet non arcu.
   lectus est, lobortis ac efficitur vitae, posuere a mauris. Phasellus ac dui
   pellentesque, lacinia risus ut, imperdiet eros.
 categories:
-  - category: Teacher Resources
-  - category: Parent Resources
+  - category: jlc
 meta:
   canonicalLink: ""
   description: test meta description
