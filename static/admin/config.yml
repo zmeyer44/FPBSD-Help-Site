@@ -294,7 +294,22 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - { label: Template, name: template, widget: hidden, default: SinglePost }
       - { label: Title, name: title, widget: string }
-      - { label: School, name: school, widget: string }
+      - {
+          label: Grade,
+          name: grade,
+          widget: 'select',
+          options:
+            [
+              'gradek',
+              'grade1',
+              'grade2',
+              'grade3',
+              'grade4',
+              'grade5',
+              'grade6',
+            ],
+          default: 'gradek',
+        }
       - label: 'Status'
         name: 'status'
         widget: 'select'

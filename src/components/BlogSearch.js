@@ -10,10 +10,8 @@ export default ({ pageCount }) => {
         let search = qs.parse(location.search.replace('?', ''))
 
         return (
-          <input
-            type="text"
+          <select
             value={search.s || ''}
-            placeholder="Search..."
             onChange={e => {
               let search = {}
               search.s = e.target.value
@@ -25,7 +23,15 @@ export default ({ pageCount }) => {
 
               navigate(`${url}?${search}`)
             }}
-          />
+          >
+            <option value="gradek">Grade K</option>
+            <option value="grade1">Grade 1</option>
+            <option value="grade2">Grade 2</option>
+            <option value="grade3">Grade 3</option>
+            <option value="grade4">Grade 4</option>
+            <option value="grade5">Grade 5</option>
+            <option value="grade6">Grade 6</option>
+          </select>
         )
       }}
     </Location>
