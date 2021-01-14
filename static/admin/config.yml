@@ -294,17 +294,12 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - { label: Template, name: template, widget: hidden, default: SinglePost }
       - { label: Title, name: title, widget: string }
+      - { label: School, name: school, widget: string }
       - label: 'Status'
         name: 'status'
         widget: 'select'
         options: ['Published', 'Featured', 'Draft']
         default: 'Published'
-      - label: 'School'
-        name: 'school'
-        widget: 'select'
-        options: ['FPB', 'JLC']
-        default: 'FPB',
-        required: false
       - { label: Date / Order, name: date, widget: date, format: 'YYYY-MM-DD' }
       - {
           label: Featured Image,
