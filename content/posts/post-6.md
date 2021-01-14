@@ -1,6 +1,7 @@
 ---
 template: SinglePost
-title: Google Meet
+title: Google Project
+grade: grade1
 status: Published
 date: 2018-05-25
 featuredImage: https://ucarecdn.com/85ba3b64-b564-4a75-982a-1bc24e013ee5/
@@ -9,8 +10,7 @@ excerpt: This is placeholder text that our web designers put here to make sure
   the website is completed. You are currently reading text that is written in
   English, not any other language.
 categories:
-  - category: Teacher Resources
-  - category: Parent Resources
+  - category: jlc
 meta:
   description: test meta description
   title: test meta title
