@@ -153,6 +153,7 @@ export const pageQuery = graphql`
               category
             }
             featuredImage
+            subtitle
           }
         }
       }

@@ -30,7 +30,7 @@ collections: # A list of collections the CMS should be able to edit
               label: Template,
               name: template,
               widget: hidden,
-              default: ContactPage
+              default: ContactPage,
             }
           - { label: Slug, name: slug, widget: hidden, default: 'contact' }
           - { label: Title, name: title, widget: string }
@@ -38,7 +38,8 @@ collections: # A list of collections the CMS should be able to edit
               label: Featured Image,
               name: featuredImage,
               widget: image,
-              options: { media_library: { config: { imageShrink: 2600x2600 } } }
+              options:
+                { media_library: { config: { imageShrink: 2600x2600 } } },
             }
           - { label: Subtitle, name: subtitle, widget: markdown }
           - { label: Body, name: body, widget: markdown }
@@ -54,7 +55,7 @@ collections: # A list of collections the CMS should be able to edit
                   label: mapLink,
                   widget: string,
                   required: false,
-                  default: ''
+                  default: '',
                 }
               - {
                   name: lat,
@@ -62,7 +63,7 @@ collections: # A list of collections the CMS should be able to edit
                   widget: string,
                   required: false,
                   delete: false,
-                  default: ''
+                  default: '',
                 }
               - {
                   name: lng,
@@ -70,7 +71,7 @@ collections: # A list of collections the CMS should be able to edit
                   widget: string,
                   required: false,
                   delete: false,
-                  default: ''
+                  default: '',
                 }
           - label: 'Meta'
             required: false
@@ -82,19 +83,19 @@ collections: # A list of collections the CMS should be able to edit
                   label: Description,
                   name: description,
                   widget: text,
-                  required: false
+                  required: false,
                 }
               - {
                   label: Canonical Link,
                   name: canonicalLink,
                   widget: string,
-                  required: false
+                  required: false,
                 }
               - {
                   label: Noindex,
                   name: noindex,
                   widget: boolean,
-                  required: false
+                  required: false,
                 }
 
       - file: 'content/pages/blog.md'
@@ -105,7 +106,7 @@ collections: # A list of collections the CMS should be able to edit
               label: Template,
               name: template,
               widget: hidden,
-              default: BlogIndex
+              default: BlogIndex,
             }
           - { label: Slug, name: slug, widget: hidden, default: 'blog' }
           - { label: Title, name: title, widget: string }
@@ -121,57 +122,19 @@ collections: # A list of collections the CMS should be able to edit
                   label: Description,
                   name: description,
                   widget: text,
-                  required: false
+                  required: false,
                 }
               - {
                   label: Canonical Link,
                   name: canonicalLink,
                   widget: string,
-                  required: false
+                  required: false,
                 }
               - {
                   label: Noindex,
                   name: noindex,
                   widget: boolean,
-                  required: false
-                }
-      - file: 'content/pages/blog.md'
-        label: 'Blog2 Page'
-        name: 'blog2-page'
-        fields:
-          - {
-              label: Template,
-              name: template,
-              widget: hidden,
-              default: BlogIndex
-            }
-          - { label: Slug, name: slug, widget: hidden, default: 'blog' }
-          - { label: Title, name: title, widget: string }
-          - { label: Featured Image, name: featuredImage, widget: image }
-          - { label: Subtitle, name: subtitle, widget: markdown }
-          - label: 'Meta'
-            required: false
-            name: 'meta'
-            widget: 'object'
-            fields:
-              - { label: Title, name: title, widget: string, required: false }
-              - {
-                  label: Description,
-                  name: description,
-                  widget: text,
-                  required: false
-                }
-              - {
-                  label: Canonical Link,
-                  name: canonicalLink,
-                  widget: string,
-                  required: false
-                }
-              - {
-                  label: Noindex,
-                  name: noindex,
-                  widget: boolean,
-                  required: false
+                  required: false,
                 }
 
       - file: 'content/pages/components.md'
@@ -182,7 +145,7 @@ collections: # A list of collections the CMS should be able to edit
               label: Template,
               name: template,
               widget: hidden,
-              default: ComponentsPage
+              default: ComponentsPage,
             }
           - { label: Slug, name: slug, widget: hidden, default: 'components' }
           - { label: Title, name: title, widget: string }
@@ -216,19 +179,19 @@ collections: # A list of collections the CMS should be able to edit
                   label: Description,
                   name: description,
                   widget: text,
-                  required: false
+                  required: false,
                 }
               - {
                   label: Canonical Link,
                   name: canonicalLink,
                   widget: string,
-                  required: false
+                  required: false,
                 }
               - {
                   label: Noindex,
                   name: noindex,
                   widget: boolean,
-                  required: false
+                  required: false,
                 }
 
       - file: 'content/pages/home.md'
@@ -239,7 +202,7 @@ collections: # A list of collections the CMS should be able to edit
               label: Template,
               name: template,
               widget: hidden,
-              default: HomePage
+              default: HomePage,
             }
           - { label: Slug, name: slug, widget: hidden, default: '' }
           - { label: Title, name: title, widget: string }
@@ -248,7 +211,7 @@ collections: # A list of collections the CMS should be able to edit
               label: Subtitle,
               name: subtitle,
               widget: markdown,
-              required: false
+              required: false,
             }
           - { label: Body, name: body, widget: markdown }
           - label: 'Accordion'
@@ -268,19 +231,19 @@ collections: # A list of collections the CMS should be able to edit
                   label: Description,
                   name: description,
                   widget: text,
-                  required: false
+                  required: false,
                 }
               - {
                   label: Canonical Link,
                   name: canonicalLink,
                   widget: string,
-                  required: false
+                  required: false,
                 }
               - {
                   label: Noindex,
                   name: noindex,
                   widget: boolean,
-                  required: false
+                  required: false,
                 }
 
   - name: infoPages
@@ -295,7 +258,7 @@ collections: # A list of collections the CMS should be able to edit
           label: Template,
           name: template,
           widget: hidden,
-          default: DefaultPage
+          default: DefaultPage,
         }
       - { label: Slug, name: slug, widget: string }
       - { label: Title, name: title, widget: string }
@@ -311,13 +274,13 @@ collections: # A list of collections the CMS should be able to edit
               label: Description,
               name: description,
               widget: text,
-              required: false
+              required: false,
             }
           - {
               label: Canonical Link,
               name: canonicalLink,
               widget: string,
-              required: false
+              required: false,
             }
           - { label: Noindex, name: noindex, widget: boolean, required: false }
 
@@ -336,12 +299,18 @@ collections: # A list of collections the CMS should be able to edit
         widget: 'select'
         options: ['Published', 'Featured', 'Draft']
         default: 'Published'
+      - label: 'School'
+        name: 'school'
+        widget: 'select'
+        options: ['FPB', 'JLC']
+        default: 'FPB',
+        required: false
       - { label: Date / Order, name: date, widget: date, format: 'YYYY-MM-DD' }
       - {
           label: Featured Image,
           name: featuredImage,
           widget: image,
-          required: false
+          required: false,
         }
       - { label: Excerpt, name: excerpt, widget: text }
       - { label: Content, name: body, widget: markdown }
@@ -366,13 +335,13 @@ collections: # A list of collections the CMS should be able to edit
               label: Description,
               name: description,
               widget: text,
-              required: false
+              required: false,
             }
           - {
               label: Canonical Link,
               name: canonicalLink,
               widget: string,
-              required: false
+              required: false,
             }
           - { label: Noindex, name: noindex, widget: boolean, required: false }
 
@@ -391,7 +360,7 @@ collections: # A list of collections the CMS should be able to edit
           label: Featured Image,
           name: featuredImage,
           widget: image,
-          required: false
+          required: false,
         }
       - label: 'Meta'
         required: false
@@ -403,13 +372,13 @@ collections: # A list of collections the CMS should be able to edit
               label: Description,
               name: description,
               widget: text,
-              required: false
+              required: false,
             }
           - {
               label: Canonical Link,
               name: canonicalLink,
               widget: string,
-              required: false
+              required: false,
             }
           - { label: Noindex, name: noindex, widget: boolean, required: false }
 
@@ -429,7 +398,7 @@ collections: # A list of collections the CMS should be able to edit
               label: Site Description,
               name: siteDescription,
               widget: text,
-              required: false
+              required: false,
             }
           - label: Social Media Card
             name: socialMediaCard
@@ -440,5 +409,5 @@ collections: # A list of collections the CMS should be able to edit
               label: Google Analytics Tracking Id,
               name: googleTrackingId,
               widget: string,
-              required: false
+              required: false,
             }

@@ -23,7 +23,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
     </section>
     <section className="section">
       <div className="container">
-        <h2>Our Guides</h2>
+        <h2>Choose a School:</h2>
         <Buttons />
       </div>
     </section>
