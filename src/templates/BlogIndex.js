@@ -54,12 +54,12 @@ export const BlogIndexTemplate = ({
       let queryObj = location.search.replace('?', '')
       queryObj = qs.parse(queryObj)
 
-      // if (enableSearch && queryObj.s) {
-      //   const searchTerm = queryObj.s.toLowerCase()
-      //   filteredPosts = filteredPosts.filter(post =>
-      //     post.school.includes(searchTerm)
-      //   )
-      // }
+      if (enableSearch && queryObj.s) {
+        const searchTerm = queryObj.s.toLowerCase()
+        filteredPosts = filteredPosts.filter(post =>
+          post.grade.includes(searchTerm)
+        )
+      }
 
       return (
         <main className="Blog">
@@ -152,6 +152,7 @@ export const pageQuery = graphql`
             categories {
               category
             }
+            grade
             featuredImage
           }
         }
