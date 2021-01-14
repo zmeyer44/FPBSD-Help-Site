@@ -1,6 +1,7 @@
 ---
 template: SinglePost
-title: School Supplies
+title: School Project
+grade: gradek
 status: Published
 date: 2018-05-25
 featuredImage: https://ucarecdn.com/3c6c91ad-d276-44d8-b98f-5c866f8687cd/
@@ -8,6 +9,8 @@ excerpt: This is placeholder text that our web designers put here to make sure
   words appear properly on your website. This text is going to be replaced once
   the website is completed. You are currently reading text that is written in
   English, not any other language.
+categories:
+  - category: jlc
 meta:
   description: test meta description
   title: test meta title
