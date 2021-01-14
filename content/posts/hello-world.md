@@ -1,6 +1,7 @@
 ---
 template: SinglePost
-title: SeeSaw Guide
+title: SeeSaw Project
+grade: grade1
 status: Published
 date: 2020-07-16
 featuredImage: https://ucarecdn.com/d53e8e3d-2488-41ed-8d1d-7529fd9c3503/
@@ -9,7 +10,7 @@ excerpt: "This is placeholder text that will be replaced with the actual
   finished site will look. Soon all these tutorials will be complete with useful
   information. "
 categories:
-  - category: Parent Resources
+  - category: fpb
 meta:
   canonicalLink: ""
   description: test meta description
