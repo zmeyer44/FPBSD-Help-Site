@@ -1,7 +1,8 @@
 ---
 template: SinglePost
-title: Logging into Google
-status: Featured / Published
+title: English
+grade: grade2
+status: Published
 date: 2018-03-27
 featuredImage: https://ucarecdn.com/4771f128-5c7b-4906-8b7c-5676c36e53b9/
 excerpt: Etiam ac quam eget lectus venenatis ullamcorper sit amet non arcu.
@@ -9,8 +10,7 @@ excerpt: Etiam ac quam eget lectus venenatis ullamcorper sit amet non arcu.
   lectus est, lobortis ac efficitur vitae, posuere a mauris. Phasellus ac dui
   pellentesque, lacinia risus ut, imperdiet eros.
 categories:
-  - category: Parent Resources
-  - category: Google Classroom
+  - category: jlc
 meta:
   canonicalLink: ""
   description: test meta description
