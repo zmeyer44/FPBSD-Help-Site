@@ -18,6 +18,10 @@ export const byDate = posts => {
   const now = Date.now()
   return posts.filter(post => Date.parse(post.date) <= now)
 }
+export const bySchool = posts => {
+  const now = 'FPB'
+  return posts.filter(post => post.school == now)
+}
 
 /**
  * filter posts by category.
@@ -48,7 +52,7 @@ export const BlogIndexTemplate = ({
     {({ location }) => {
       let filteredPosts =
         posts && !!posts.length
-          ? byCategory(byDate(posts), title, contentType)
+          ? byCategory(bySchool(byDate(posts)), title, contentType)
           : []
 
       let queryObj = location.search.replace('?', '')
@@ -153,7 +157,7 @@ export const pageQuery = graphql`
               category
             }
             featuredImage
-            subtitle
+            school
           }
         }
       }
