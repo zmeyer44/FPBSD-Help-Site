@@ -8,4 +8,4 @@ meta:
   description: Come here to find helpful tips when adjusting to online learning.
   title: FPBSD Help Site
 ---
-## Check Out Some Of These Awesome Projects!
+## Enjoy the creative work that our students are doing!
